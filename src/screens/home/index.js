@@ -11,6 +11,7 @@ import {
 
 import Suggestions from '../../components/suggestions/index';
 import Activities from '../../components/activities/index';
+import Tips from '../../components/tips/index';
 
 export default function Home() {
     return (
@@ -31,6 +32,7 @@ export default function Home() {
                 </Header>
                 <Suggestions />
                 <Activities />
+                <Tips />
             </Container>
         </Wrapper>
     );
