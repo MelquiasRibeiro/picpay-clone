@@ -3,6 +3,8 @@ import {MaterialCommunityIcons, AntDesign} from '@expo/vector-icons'
 import { Container,Wrapper,Header, Balace, BalanceContainer, BalanceTitle } from './styles';
 
 import Suggestions from '../../components/suggestions/index'
+import Activities from '../../components/activities/index'
+
 
 export default function Home() {
   return (
@@ -24,6 +26,7 @@ export default function Home() {
           color="#10c86e"/>
       </Header> 
       <Suggestions/>
+      <Activities/>
       </Container>
     </Wrapper>
       
